@@ -20,6 +20,6 @@ public class App extends SpringBootServletInitializer {
 
    @RequestMapping(value = "/")
    public String hello() {
-      return "<center>Hello World and application has been deployed through Maven Aahhh Mantaapp</center>";
+      return "<center>Hello World and application has been deployed through Maven Aahhh Mantaapp through GITHUB Auto-trgger</center>";
    }
 }
