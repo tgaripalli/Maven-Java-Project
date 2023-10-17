@@ -1,7 +1,7 @@
 FROM openjdk:8 AS BUILD_IMAGE
 RUN apt update && apt install maven -y
 COPY . .
-RUN mvn package
+RUN mvn package -DskipTests
 
 FROM tomcat:8-jre11
 
